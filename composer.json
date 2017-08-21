@@ -1,0 +1,28 @@
+{
+  "name": "wy_web/platform_flowmatrix",
+  "description": "基于laravel的树形多分支流程流转引擎.",
+  "type": "library",
+  "keywords": [
+    "flow",
+    "laravel"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "finepvol",
+      "email": "15726766@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9"
+  },
+  "require-dev": {
+    "phpmd/phpmd": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pvol\\FlowMatrix\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
+}
